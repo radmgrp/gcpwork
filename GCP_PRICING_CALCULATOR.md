@@ -1,6 +1,4 @@
-# GCP Pricing Calculator — GCore Invoice MA2600038 Mapping
-**Source invoice:** EZCS Solutions Ltd. / DCSG TECH CO. L.L.C  
-**Billing period:** 01-04-2026 – 30-04-2026  
+# GCP Pricing Calculator — GCore Mapping 
 **GCore total:** $5,273.22 USD
 
 > **Region mapping (GCore → GCP nearest):**
