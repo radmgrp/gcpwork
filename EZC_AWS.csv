@@ -1,0 +1,37 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+0,21396.78,256761.36,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+EZC_AWS,Europe (Frankfurt),,Amazon EKS,0,73,876.00,USD,"Number of EKS Clusters (1), Number of hybrid nodes (0 per month)"
+EZC_AWS,Europe (Frankfurt),,Amazon EC2 ,0,4248.6,50983.20,USD,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 15), Advance EC2 instance (c6i.2xlarge), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+EZC_AWS,Europe (Frankfurt),,Amazon EC2 ,0,594.8,7137.60,USD,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 5), Advance EC2 instance (c6i.2xlarge), Pricing strategy (Spot Discount: 58%), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+EZC_AWS,Europe (Frankfurt),,Amazon Elastic Block Store (EBS),0,246.12,2953.44,USD,"Number of volumes (20), Average duration of volume (730 hours per month), Storage amount per volume (50 GB), Snapshot Frequency (2x Daily), Amount changed per snapshot (3 GB), Provisioning IOPS per volume (gp3) (3000), General Purpose SSD (gp3) - Throughput (125 MBps)"
+EZC_AWS,Europe (Frankfurt),registry,Amazon Elastic Container Registry,0,5,60.00,USD,"DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), Amount of data stored (50 GB per month)"
+EZC_AWS,Europe (Frankfurt),,Amazon RDS for MySQL,0,6367.45,76409.40,USD,"Storage amount (10 TB), Storage for each RDS instance (General Purpose SSD (gp3)), Nodes (1), Instance type (db.r6g.4xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand), General Purpose SSD (gp3) - IOPS (20000), General Purpose SSD (gp3) - Throughput (500 MiBps)"
+EZC_AWS,Europe (Frankfurt),cache.r6g.xlarge (Redis),Amazon ElastiCache,0,2163.72,25964.64,USD,"Engine (Redis OSS), Nodes (0), Instance type (cache.r6gd.12xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Cache Engine (Redis), Cache Node Type (Memory optimized), Pricing strategy (OnDemand), Cache Engine (Redis), Pricing strategy (OnDemand), Instance type (cache.r6g.xlarge), Cache Engine (Redis), Nodes (6), Utilization (On-Demand only) (100 %Utilized/Month), Cache Node Type (Memory optimized), Pricing strategy (OnDemand)"
+EZC_AWS,Europe (Frankfurt),Standard (active data),S3 Standard,0,78.15,937.80,USD,"S3 Standard storage (2000 GB per month), PUT, COPY, POST, LIST requests to S3 Standard (5000000), GET, SELECT, and all other requests from S3 Standard (5000000)"
+EZC_AWS,Europe (Frankfurt),Standard (active data),Data Transfer,0,0,0.00,USD,"DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month)"
+EZC_AWS,Europe (Frankfurt),General Purpose 200 GiB,Amazon Elastic File System (EFS),0,72,864.00,USD,Desired Storage Capacity (200 GB per month)
+EZC_AWS,Europe (Frankfurt),Application Load Balancer,Application Load Balancer,0,2939.71,35276.52,USD,Number of Application Load Balancers (1)
+EZC_AWS,Europe (Frankfurt),,Amazon Route 53,0,27.51,330.12,USD,"Hosted Zones (1), Additional Records in Hosted Zones (10), Basic Checks Within AWS (3)"
+EZC_AWS,Europe (Frankfurt),AWS WAF,AWS Web Application Firewall (WAF),0,70,840.00,USD,"Number of Web Access Control Lists (Web ACLs) utilized (1 per month), Number of Rules added per Web ACL (5 per month)"
+EZC_AWS,Europe (Frankfurt),,Amazon CloudWatch,0,200.23,2402.76,USD,"Number of Metrics (includes detailed and custom metrics) (50), Logs Delivered to S3: Data Ingested (200 GB), Number of Dashboards (1), Expected Logs Data scanned (200 GB), Standard Logs: Data Ingested (200 GB)"
+EZC_AWS,Europe (Frankfurt),Managed Prometheus,Amazon Managed Service for Prometheus,0,384.23,4610.76,USD,"Average Number of Dashboard users per day (10), Number of Prometheus rules (10), Average number of queries per day per dashboard user (2400), Average samples per query for Monitoring queries (100000), Average samples per query for Alerting queries (100000), Average active time series (150000), Number of collectors (1)"
+EZC_AWS,Europe (Frankfurt),Managed Grafana,Amazon Managed Grafana,0,34,408.00,USD,"Number of active editors/administrators (1 per workspace per month), Number of active viewers (5 per workspace per month)"
+EZC_AWS,Europe (Frankfurt),,AWS Key Management Service,0,11,132.00,USD,"Number of customer managed Customer Master Keys (CMK) (5), Number of symmetric requests (2000000)"
+EZC_AWS,Europe (Frankfurt),,AWS Secrets Manager,0,2,24.00,USD,"Number of secrets (5), Average duration of each secret (30 days), Number of API calls (50 per month)"
+EZC_AWS,Europe (Frankfurt),,Amazon GuardDuty,0,311.06,3732.72,USD,"AWS CloudTrail Management Event Analysis (1000 per month), EC2 VPC Flow Log Analysis (200 GB per month), EC2 DNS Query Log Analysis (2 GB per month), RDS provisioned instance vCPU (64 per month)"
+EZC_AWS,Europe (Frankfurt),,AWS Security Hub,0,0.03,0.36,USD,"Number of Accounts (1), Number of Security Checks per Account (30), Number of Finding Ingested per Account (3000), Number of Automation Rules (2)"
+EZC_AWS,Europe (Frankfurt),,EFS Backup,0,60,720.00,USD,"Estimated daily change of primary data (%) (0), Estimated annual increase in primary data (%) (0), Amount of primary data to be backed up (1000 GB)"
+EZC_AWS,Europe (Frankfurt),,RDS Backup,0,0,0.00,USD,"Estimated annual increase in primary data (%) (0), Estimated daily change of primary data (%) (0), Amount of primary data to be backed up (10000 GB)"
+EZC_AWS,Europe (Frankfurt),,EBS Backup,0,54,648.00,USD,"Estimated annual increase in primary data (%) (0), Estimated daily change of primary data (%) (0), Amount of primary data to be backed up (1000 GB)"
+EZC_AWS,Europe (Frankfurt),FOR_RDS_backup,Amazon Elastic Block Store (EBS),0,3454.17,41450.04,USD,"Number of volumes (1), Average duration of volume (730 hours per month), Storage amount per volume (20 TB), Snapshot Frequency (Daily), Amount changed per snapshot (300 GB), Provisioning IOPS per volume (gp3) (20000), General Purpose SSD (gp3) - Throughput (1250 MBps)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
